@@ -3,4 +3,4 @@ This is my very own github pages partially for unblocked games in my school and 
 
 Should you be a part of PCSS the please by all means, click the link
 
-                    [ _sudo11 Rules ;)](ruppke.gihub.io)
+# [ _sudo11 Rules ;)](ruppke.gihub.io)

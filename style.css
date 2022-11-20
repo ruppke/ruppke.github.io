@@ -24,7 +24,7 @@ p{
   border: 10px inset red;
   padding: -1000px;
   margin: 10px 10px 10px 20px;
-  background: purple;
+  background: rgb(0, 0, 0);
   text-align: center;
   color:blue !important;
   text-shadow: 3px 4px black;

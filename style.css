@@ -48,36 +48,6 @@ video {
   max-width: 40px;
 }
 
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgba(255, 0, 72, 0.718);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -97,5 +67,5 @@ a:active {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04AA6D;
-  color: rgb(46, 7, 7);
+  color: rgb(0, 0, 0);
 }

@@ -26,8 +26,8 @@ p{
   margin: 10px 10px 10px 20px;
   background: rgb(0, 0, 0);
   text-align: center;
-  color:blue !important;
-  text-shadow: 3px 4px black;
+  color:blue;
+  text-shadow: 3px 4px rgb(0, 0, 0);
   font-family: monospace;
 }
 /* adjust typography defaults */

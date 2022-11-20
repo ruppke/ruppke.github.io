@@ -1,4 +1,7 @@
 /* a minimalist set of CSS resets */
+body{
+  background-color: #000000;
+}
 
 /* default to border-box */
 html {

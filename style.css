@@ -48,11 +48,18 @@ video {
   max-width: 40px;
 }
 
-.boxnav{
-  width: 250px;
-  height: 250px;
-  padding: 10px;
-  margin: 25px;
-  box-align: center;
-  color: brown;
+.links{
+  text-align: center;
+}
+
+a{
+  color: blue;
+}
+
+a:hover{
+  color:rgb(112, 5, 5);
+}
+
+a:active{
+  color:yellow
 }

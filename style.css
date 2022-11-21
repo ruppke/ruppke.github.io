@@ -50,19 +50,19 @@ video {
 
   /* Add a black background color to the top navigation */
   .topnav {
-    background-color: #333;
+    background-color: #333333;
     overflow: hidden;
     padding-top: 0em;
   }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: inline-start;
+  float: inline-end;
   color: #000000;
-  text-align: justify;
-  padding: 10px 10px;
+  text-align: center;
+  padding: 0px 0px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 /* Change the color of links on hover */

@@ -57,10 +57,10 @@ video {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: inline-start;
   color: #000000;
-  text-align: center;
-  padding: 5px 5px;
+  text-align: justify;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 25px;
 }

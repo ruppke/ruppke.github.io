@@ -53,11 +53,11 @@ video {
 }
 
 a{
-  color: blue;
+  color: rgb(120, 14, 14);
 }
 
 a:hover{
-  color:rgb(112, 5, 5);
+  color:rgb(116, 15, 136);
 }
 
 a:active{

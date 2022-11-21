@@ -16,13 +16,10 @@ html {
 *:after {
   box-sizing: inherit;
 }
-h1,h2,h3{
+p,h1,h2,h3{
   color: blue;
 }
-p{
-  color: blue;
-  
-}
+
 /* The title */
 #Title {
   border: 10px inset red;

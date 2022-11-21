@@ -73,6 +73,6 @@ video {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #3d065c;
   color: rgb(0, 0, 0);
 }

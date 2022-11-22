@@ -22,6 +22,7 @@ p,h1,h2,h3{
 
 /* The title */
 #Title {
+  text-size-adjust: 40%;
   border: 10px inset red;
   padding: -1000px;
   margin: 10px 10px 10px 20px;

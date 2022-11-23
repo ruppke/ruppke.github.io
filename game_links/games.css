@@ -1,0 +1,75 @@
+html 
+{
+ overflow: auto;
+}
+ 
+html, body, div, iframe 
+{
+ margin: 0px; 
+ padding: 0px; 
+ height: 100%; 
+ border: none;
+}
+/* a *not* minimalist set of CSS resets */
+body{
+    background-color: #000000;
+    background: black;
+  }
+  
+  /* default to border-box */
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  p,h1,h2,h3{
+    color: blue;
+  }
+  
+  /* The title */
+  #Title {
+    text-size-adjust: 40%;
+    border: 10px inset red;
+    padding: -1000px;
+    margin: 10px 10px 10px 20px;
+    background: rgb(104, 1, 1);
+    text-align: center;
+    color:blue;
+    text-shadow: 3px 4px rgb(0, 0, 0);
+    font-family: monospace;
+  }
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* images and videos max out at full width */
+  img,
+  video {
+    max-height: 40px;
+    max-width: 40px;
+  }
+  
+  .links{
+    text-align: center;
+  }
+  
+  a{
+    color: rgb(120, 14, 14);
+  }
+  
+  a:hover{
+    color:rgb(116, 15, 136);
+  }
+  
+  a:active{
+    color:yellow
+  }

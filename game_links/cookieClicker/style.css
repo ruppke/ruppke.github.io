@@ -113,10 +113,7 @@ a:active
 	background:transparent;
 }
 
-.inset
-{
-	/*box-shadow:0px 0px 12px #000 inset;*/
-}
+
 
 .titleFont,.title,.section,.lockedTitle
 {
@@ -257,9 +254,7 @@ SECTIONS
 	clear:both;
 	margin-bottom:-12px;
 }
-.optionBox .option
-{
-}
+
 a.option.big
 {
 	font-size:30px;
@@ -395,7 +390,6 @@ oh forget it this is just a mess
 #topBar>div
 {
 	display:inline-block;
-	float:left;
 	border-right:1px solid #000;
 	box-shadow:0px 0px 3px 1px rgba(255,255,255,0.2) inset;
 	padding:7px 8px 9px 8px;
@@ -414,7 +408,7 @@ a.orangeLink,#topBar a.orangeLink
 {color:#f65f4d;}
 a.orangeLink:hover,#topBar a.orangeLink:hover
 {color:#ff9580;text-shadow:0px 0px 3px #f65f4d;}
-
+#topbar a.redlink
 #topBar>#links
 {
 	display:block;
@@ -707,7 +701,6 @@ textarea,input[type="text"]
 /* why, CSS? why? */
 input[type=range]
 {
-	-webkit-appearance:none;
 	width:100%;
 	height:12px;
 	margin:0px 0px;
@@ -757,7 +750,6 @@ input[type=range]::-moz-range-thumb
 	background:#ccc;
 	box-shadow:0px 0px 4px #fff inset,0px 1px 3px 1px rgba(0,0,0,0.5);
 	cursor:pointer;
-	-webkit-appearance:none;
 	margin-top:0px;
 	border-radius:4px;
 }
@@ -781,7 +773,6 @@ input[type=range]::-ms-thumb
 	background:#ccc;
 	box-shadow:0px 0px 4px #fff inset,0px 1px 3px 1px rgba(0,0,0,0.5);
 	cursor:pointer;
-	-webkit-appearance:none;
 	margin-top:0px;
 	border-radius:4px;
 }
@@ -890,7 +881,7 @@ input[type=range]:active::-ms-thumb,input[type=range]:hover::-ms-thumb {backgrou
 	position:absolute;
 	z-index:1000000000;
 	display:none;
-	//transition:left 0.1s ease-out,right 0.1s ease-out,top 0.1s ease-out,bottom 0.1s ease-out;
+	transition:left 0.1s ease-out,right 0.1s ease-out,top 0.1s ease-out,bottom 0.1s ease-out;
 }
 #tooltip
 {
@@ -1454,10 +1445,7 @@ q:after
 	position:absolute;
 	overflow:hidden;
 }
-#ascendMeter
-{
-	/*right:100px;*/
-}
+
 
 .meter.filling
 {
@@ -1930,9 +1918,6 @@ from {top:20px;opacity:0;}
 #vaultUpgrades:hover{height:auto;min-height:30px;}
 #vaultUpgrades:before{content:'Vault';}
 #products:before{content:'Buildings';}
-#upgrades
-{
-}
 #upgrades.hasMenu
 {
 	min-height:82px;
@@ -1953,7 +1938,6 @@ from {top:20px;opacity:0;}
 	position:relative;
 	/*background:#000;*/
 	background:rgba(0,0,0,0.25);
-	float:left;
 }
 .crate:before
 {
@@ -2062,10 +2046,6 @@ from {top:20px;opacity:0;}
 	display:inline-block;
 	margin:0px 4px;
 }
-.icon,.crate,.usesIcon
-{
-	/*background-image:url(img/icons.png?v=20);*/
-}
 .icon,.crate,.shadowFilter
 {
 	filter:drop-shadow(0px 3px 2px #000);
@@ -2090,10 +2070,6 @@ from {top:20px;opacity:0;}
 	margin-bottom:-12px;
 }
 
-.achievement
-{
-	/*opacity:0.4;*/
-}
 .crate.enabled
 {
 	opacity:1;
@@ -2400,9 +2376,6 @@ from {background-position:0px 0px;}
 {
 	float:left;
 }
-.storeBulkMode:hover,.storeBulkAmount:hover,.storeBulkMode.selected,.storeBulkAmount.selected
-{
-}
 .storeBulkMode
 {width:60px;padding:1px 0px;}
 #storeBulkBuy
@@ -2621,11 +2594,7 @@ from {background-position:0px 0px;}
 {
 	margin-top:4px;
 }
-.note.hasdesc h3
-{
-	/*border-bottom:1px solid rgba(255,255,255,0.5);
-	padding-bottom:2px;*/
-}
+
 .note.nodesc h3
 {
 	text-align:center;
@@ -2642,14 +2611,7 @@ p
 {transition:opacity 1s;}
 .ascendIntro #sectionMiddle,.ascendIntro #sectionRight,.ascendIntro #cookies,.ascendIntro #bakeryNameAnchor,.ascendIntro #backgroundCanvas,.ascendIntro .separatorRight,.ascendIntro .separatorLeft,.reincarnating #sectionMiddle,.reincarnating #sectionRight,.reincarnating #cookies,.reincarnating #bakeryNameAnchor,.reincarnating #backgroundCanvas,.reincarnating .separatorRight,.reincarnating .separatorLeft
 {opacity:0;}
-#game.ascendIntro,#ascend
-{
-	/*background:url(img/starbg.jpg);
-	background-size:1024px 1024px;*/
-	/*background:url(img/starbg.jpg),url(img/starbg.jpg);
-	background-size:1024px 1024px,2048px 2048px;
-	background-blend-mode:hard-light;*/
-}/*animation:drift 60s linear 0s infinite;}*/
+
 #game.ascendIntro,#game.reincarnating{background:#000;}
 
 .ascending #sectionMiddle,.ascending #sectionRight,.ascending #sectionLeft,.ascending .separatorLeft,.ascending .separatorRight,.reincarnating  #backgroundCanvas

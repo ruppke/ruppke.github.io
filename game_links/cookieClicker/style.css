@@ -412,7 +412,8 @@ a.orangeLink:hover,#topBar a.orangeLink:hover
 {color: rgb(120, 14, 14);}
 #topbar a.redlink:hover
 {color:rgb(116, 15, 136);text-shadow: 0px 0px 3px rgb(86, 11, 101);}
-
+#topbar a.redlink:active
+{color: yellow;}
 #topBar>#links
 {
 	display:block;

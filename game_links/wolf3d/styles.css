@@ -814,11 +814,11 @@ body {
     margin-right : -6px;
 }
 a.redlink
-{color: rgb(120, 14, 14);}
+{color: rgb(120, 14, 14); font-family: sans-serif; text-align: center;}
 a.redlink:hover
-{color:rgb(116, 15, 136);text-shadow: 0px 0px 3px rgb(86, 11, 101);}
+{color:rgb(116, 15, 136);text-shadow: 0px 0px 3px rgb(86, 11, 101); font-family: sans-serif; text-align: center;}
 a.redlink:active
-{color: yellow;}    
+{color: yellow; font-family: sans-serif; text-align: center;}    
 /* skill menu face */
 
 #menu div.menu.skill div.face {

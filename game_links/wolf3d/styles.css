@@ -813,11 +813,11 @@ body {
     background-position : 0 -128px;
     margin-right : -6px;
 }
-#topbar a.redlink
+a.redlink
 {color: rgb(120, 14, 14);}
-#topbar a.redlink:hover
+a.redlink:hover
 {color:rgb(116, 15, 136);text-shadow: 0px 0px 3px rgb(86, 11, 101);}
-#topbar a.redlink:active
+a.redlink:active
 {color: yellow;}    
 /* skill menu face */
 

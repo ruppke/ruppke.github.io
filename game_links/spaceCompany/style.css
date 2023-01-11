@@ -9,7 +9,7 @@ body {
 }
 a.redlink
 {color: rgb(120, 14, 14); font-family: sans-serif; text-align: center;}
-a.redlink:hover
+a.redlink:hover		
 {color:rgb(116, 15, 136);text-shadow: 0px 0px 3px rgb(86, 11, 101);}
 a.redlink:active
 {color: yellow;}
